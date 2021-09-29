@@ -58,5 +58,4 @@ class Solution:
                 return 0
             if l == len(arr):
                 return len(arr) - 1
-
-
+print('hello world')

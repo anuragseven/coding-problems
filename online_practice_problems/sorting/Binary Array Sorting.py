@@ -15,3 +15,19 @@ def binSort(self, A, N):
         while j<N:
             A[j]=1
             j+=1
+
+
+class Solution:
+    
+    #Function to sort the binary array.
+    def binSort(self, A, N): 
+        i=0
+        j=N-1
+        
+        while i<j:
+            
+            if A[i]==1:
+                A[i],A[j]=A[j],A[i]
+                j-=1
+            else:
+                i+=1
